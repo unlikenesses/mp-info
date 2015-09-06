@@ -1,0 +1,16 @@
+**/.sass-cache/
+
+**/node_modules/
+
+**/dist/
+
+ignore/
+
+js/src/config.js
+
+*.sql
+*.docx
+*.doc
+*.txt
+*.jpg
+*.zip

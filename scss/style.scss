@@ -1,0 +1,81 @@
+.twfy_modal {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #222222;
+	font-size: 13px;
+	line-height: 16px;
+	background-color: #F2F1EF;
+	a {
+		color: #005689!important;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	p {
+		margin: 0 0 5px 0;
+	}
+	ul {
+		list-style-type: none;
+	}
+	button {
+		border-style: solid;
+		border-width: 1px;
+		cursor: pointer;
+		font-family: inherit;
+		font-weight: bold;
+		line-height: normal;
+		margin: 0 0 1.11111em;
+		position: relative;
+		text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		padding-top: 0.66667em;
+		padding-right: 1.33333em;
+		padding-bottom: 0.72222em;
+		padding-left: 1.33333em;
+		font-size: 0.88889em;
+		background-color: #62b356;
+		border-color: #4d9442;
+		color: #fff;
+	}
+	button:hover, button:focus {
+		background-color: #4d9442;
+	}
+	.pic {
+		float: left;
+		width: 70px;
+		margin: 0 10px 10px 0;
+		img {
+			max-width: 70px;
+		}
+	}
+	p.name {
+		font-weight: bold;
+	}
+	p.party {
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+	p.constituency {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	p.votes_header {
+		clear: both;
+		padding-bottom: 4px;
+		border-bottom: 1px dashed #999;
+	}
+	.votes {
+		width: 98%;
+		height: 190px;
+		overflow-y: auto;
+		padding: 1%;
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+.highlight {
+	background: yellow;
+}
