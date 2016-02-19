@@ -3,7 +3,7 @@
 	"name": "MP Info",
 	"short_name": "MP Info",
 	"description": "A Chrome extension based on data provided by the They Work For You API (http://www.theyworkforyou.com/api).",
-	"version": "1.0",
+	"version": "1.0.0.1",
 	"permissions": ["http://www.theyworkforyou.com/", "storage"],
 	"content_scripts": [{
 		"matches": [ "<all_urls>" ],
