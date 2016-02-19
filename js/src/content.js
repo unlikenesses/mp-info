@@ -4,13 +4,13 @@ var app = {
 	url: 'http://www.theyworkforyou.com/api/',
 
 	init: function(key) {
-		
+
 		this.key = key;
 		var that = this;
 
 		this.highlightNames();
 
-		$('.highlight').qtip({
+		$('.mpHighlight').qtip({
 			content: {
 				text: function(event,api) {
 					var person_id = $(this).attr('id').replace('person', '');
@@ -55,12 +55,12 @@ var app = {
 		// Highlight MP names:
 
 		for (var i = 0; i < mps.length; i++) {
-			$('body').highlight(mps[i].name, { wordsOnly: true });
+			$('body').highlight(mps[i].name, { wordsOnly: true, className: 'mpHighlight' });
 		}
 
 		// Now go through highlights and add ID attributes:
 
-		$('.highlight').each(function() {
+		$('.mpHighlight').each(function() {
 			var id;
 			for (var i = 0; i < mps.length; i++) {
 				if (mps[i].name == $(this).html()) {
